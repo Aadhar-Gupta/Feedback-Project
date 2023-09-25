@@ -1,0 +1,78 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+.main-conatiner {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 90vh;
+    width: 90vw;
+}
+.main {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+padding: 40px;
+position: relative;
+height: 50%;
+}
+.cancel {
+    border: none;
+    background-color: #1f2863;
+    color: white;
+    width: 40%;
+    position: absolute;
+    bottom: 0;
+    margin: 5%;
+    padding: 2%;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.add:active{
+    background-color: #a327d9;
+}
+
+.add {
+    background-color: #C75BF6;
+    border:none;
+    position: absolute;
+    color: white;
+border-radius: 20px;
+    bottom: 0;
+    right: 0;
+    margin: 5%;
+    padding: 2%;
+    cursor: pointer;
+
+}
+
+#des{
+    resize: none;
+margin-top: 1.5%;
+}
+
+.back:hover{
+    color: #114450;
+}
+
+.back {
+    align-self: flex-start;
+    border: none;
+    background-color: transparent;
+    color: #0c92b3;
+    cursor: pointer;
+}
+.main input:hover{
+ border:solid 2px #0c92b3;
+}
+.main select:hover{
+    border:solid 2px #0c92b3;
+   }
+
+   .main textarea:hover{
+    border:solid 2px #0c92b3;
+   }

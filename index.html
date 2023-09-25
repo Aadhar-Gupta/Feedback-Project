@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="app.js"></script>
+    <script async src="https://basicons.xyz/embed.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="sidebar">
+            <div class="card">
+                <img src="Rectangle 1.png" alt="">
+                <p class="card-bottom">FrontEnd Mentor</p>
+                <p>Feedback Board</p>
+            </div>
+            <div class="buttons">
+                <button class="filter2" id="bug">bug</button>
+                <button class="filter2" id="enhancement">enhancement</button>
+                <button class="filter2" id="feature">feature</button>
+                <button class="filter2" id="UX">ux</button>
+                <button class="filter2" id="UI">ui</button>
+                <button class="filter3" id="all">all</button>
+            </div>
+            <div class="roadmap">
+                <div class="road">
+                    <p>Roadmap</p>
+                    <button class="view">view</button>
+                </div>
+                <ul class="roadmap-list">
+                    <li>planned</li>
+                    <li>in progress</li>
+                    <li>Live</li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="main">
+            <div class="header">
+                <div class="left">
+                    <p id="count"></p>
+                    <label for="filter">Sort By:</label>
+                    <select name="filter" id="filter">
+                        <option class="options" selected value="mostupvote">Most Upvotes</option>
+                        <option class="options" value="leastupvotes">Least Upvotes</option>
+                        <option class="options" value="mostcomments">Most Comments</option>
+                        <option class="options" value="leastcomments">Least Comments</option>
+                    </select>
+                </div>
+                <div class="right">
+                    <a href="new-feedback.html"><button class="feed">+Add Feedback</button></a>
+
+                </div>
+            </div>
+            <div class="container">
+                <ul id="Feedback-list">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

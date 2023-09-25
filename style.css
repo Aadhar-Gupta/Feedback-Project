@@ -1,0 +1,205 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.main-container {
+    display: flex;
+    min-height: 100vh;
+    max-height: fit-content;
+    width: 100vw;
+}
+
+.sidebar {
+    /* background-color: aqua; */
+    width: 20%;
+    margin-left: 5vw;
+    margin-top: 5vh;
+
+}
+
+.card img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 10px;
+    height: 100px
+}
+
+.card-bottom {
+    margin-bottom: 30px;
+}
+
+.card p {
+    position: absolute;
+    margin-left: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.buttons button {
+    color: blueviolet;
+    border: none;
+    padding: 2.5%;
+    margin: 2%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: rgb(95, 95, 232);
+    color: white;
+}
+
+.buttons button:active {
+    background-color: rgb(0, 4, 255);
+    color: white;
+}
+
+.buttons {
+    margin-top: 40px;
+}
+
+.roadmap {
+    font-size: large;
+    display: flex;
+    margin-top: 30%;
+    flex-direction: column;
+}
+
+.comment {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 4%;
+}
+
+.view {
+    border: none;
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+
+.road {
+    display: flex;
+    justify-content: space-between
+}
+
+.roadmap-list {
+    margin-top: 15px;
+    /* list-style: none; */
+}
+
+.roadmap-list ::marker {
+    color: red;
+}
+
+.main {
+    color: white;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 5vw;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+    background-color: rgb(63, 56, 167);
+    align-items: center;
+    border-radius: 20px;
+}
+
+.left {
+    display: flex;
+    padding: 2.5%;
+}
+
+.right {
+    justify-self: center;
+    margin-right: 10px;
+}
+
+.items {
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.details {
+    width: 90%;
+}
+
+
+.counter {
+    color: #4661e6
+}
+
+.counter,
+.counterActive {
+    font-size: 20px;
+    font-weight: 700
+}
+
+
+.container ul {
+    margin-top: 30px;
+}
+
+.details p {
+    margin: 10px auto;
+}
+
+.details button {
+    border: none;
+    background-color: darkslateblue;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+}
+
+#filter {
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.options {
+    padding: 10px;
+    color: #E97BB1;
+}
+
+#filter option:is(:checked, :active, :hover) {
+    color: black;
+}
+
+#count {
+    margin-right: 15px;
+}
+
+.feed {
+    border: none;
+    padding: 10px;
+    background-color: #E97BB1;
+    color: white;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.comment img {
+    width: 45%;
+}

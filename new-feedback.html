@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="feedback.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+
+    <title>Feedback</title>
+</head>
+
+<body>
+    <div class="main-conatiner">
+
+        <div class="main">
+            <a href="index.html">
+                <button class="back">go back</button></a>
+            <form action="#" method="get"></form>
+            <p>Create new feedback</p>
+            <label for="title">Feedback Title</label>
+            <input id="title" autofocus type="text" name="" placeholder="Add a short headline">
+            <p>Catagory</p>
+            <label for="catagory">Choose a Catagory for your Feedback</label>
+            <select name="" id="catagory">
+                <option selected value="feature">feature</option>
+                <option value="UI">UI</option>
+                <option value="UX">UX</option>
+                <option value="enhancement">enhancement</option>
+                <option value="bug">bug</option>
+            </select>
+            <label for="des">Feedback Detail</label>
+            <textarea name="detail" id="des" placeholder="Include any specific comments " cols="30" rows="3"></textarea>
+            <a href="index.html"><button class="cancel"> cancel</button></a>
+            <a href="index.html">
+                <button class="add">add feedback</button></a>
+        </div>
+    </div>
+</body>
+<script type="module" src="app.js"></script>
+
+</html>
